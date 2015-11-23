@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		396874981C03342E00EA51DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 396874971C03342E00EA51DE /* main.m */; };
+		3968749B1C03342E00EA51DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3968749A1C03342E00EA51DE /* AppDelegate.m */; };
+		396874A31C03342E00EA51DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396874A21C03342E00EA51DE /* Assets.xcassets */; };
+		396874A61C03342E00EA51DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396874A41C03342E00EA51DE /* LaunchScreen.storyboard */; };
+		396874B11C03342E00EA51DE /* EnumPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 396874B01C03342E00EA51DE /* EnumPracticeTests.m */; };
+		396874BC1C03342E00EA51DE /* EnumPracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 396874BB1C03342E00EA51DE /* EnumPracticeUITests.m */; };
+		396874CE1C03346E00EA51DE /* PracticeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396874CD1C03346E00EA51DE /* PracticeController.m */; };
+		396874D11C03347B00EA51DE /* PracticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 396874D01C03347B00EA51DE /* PracticeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		396874AD1C03342E00EA51DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3968748B1C03342E00EA51DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 396874921C03342E00EA51DE;
+			remoteInfo = EnumPractice;
+		};
+		396874B81C03342E00EA51DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3968748B1C03342E00EA51DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 396874921C03342E00EA51DE;
+			remoteInfo = EnumPractice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		396874931C03342E00EA51DE /* EnumPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnumPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		396874971C03342E00EA51DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		396874991C03342E00EA51DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3968749A1C03342E00EA51DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		396874A21C03342E00EA51DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		396874A51C03342E00EA51DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		396874A71C03342E00EA51DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		396874AC1C03342E00EA51DE /* EnumPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnumPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		396874B01C03342E00EA51DE /* EnumPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnumPracticeTests.m; sourceTree = "<group>"; };
+		396874B21C03342E00EA51DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		396874B71C03342E00EA51DE /* EnumPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnumPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		396874BB1C03342E00EA51DE /* EnumPracticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnumPracticeUITests.m; sourceTree = "<group>"; };
+		396874BD1C03342E00EA51DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		396874CC1C03346E00EA51DE /* PracticeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PracticeController.h; sourceTree = "<group>"; };
+		396874CD1C03346E00EA51DE /* PracticeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PracticeController.m; sourceTree = "<group>"; };
+		396874CF1C03347B00EA51DE /* PracticeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PracticeView.h; sourceTree = "<group>"; };
+		396874D01C03347B00EA51DE /* PracticeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PracticeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		396874901C03342E00EA51DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396874A91C03342E00EA51DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396874B41C03342E00EA51DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3968748A1C03342E00EA51DE = {
+			isa = PBXGroup;
+			children = (
+				396874951C03342E00EA51DE /* EnumPractice */,
+				396874AF1C03342E00EA51DE /* EnumPracticeTests */,
+				396874BA1C03342E00EA51DE /* EnumPracticeUITests */,
+				396874941C03342E00EA51DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		396874941C03342E00EA51DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				396874931C03342E00EA51DE /* EnumPractice.app */,
+				396874AC1C03342E00EA51DE /* EnumPracticeTests.xctest */,
+				396874B71C03342E00EA51DE /* EnumPracticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		396874951C03342E00EA51DE /* EnumPractice */ = {
+			isa = PBXGroup;
+			children = (
+				396874C91C03345500EA51DE /* Classes */,
+				396874991C03342E00EA51DE /* AppDelegate.h */,
+				3968749A1C03342E00EA51DE /* AppDelegate.m */,
+				396874A21C03342E00EA51DE /* Assets.xcassets */,
+				396874A41C03342E00EA51DE /* LaunchScreen.storyboard */,
+				396874A71C03342E00EA51DE /* Info.plist */,
+				396874961C03342E00EA51DE /* Supporting Files */,
+			);
+			path = EnumPractice;
+			sourceTree = "<group>";
+		};
+		396874961C03342E00EA51DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				396874971C03342E00EA51DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		396874AF1C03342E00EA51DE /* EnumPracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				396874B01C03342E00EA51DE /* EnumPracticeTests.m */,
+				396874B21C03342E00EA51DE /* Info.plist */,
+			);
+			path = EnumPracticeTests;
+			sourceTree = "<group>";
+		};
+		396874BA1C03342E00EA51DE /* EnumPracticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				396874BB1C03342E00EA51DE /* EnumPracticeUITests.m */,
+				396874BD1C03342E00EA51DE /* Info.plist */,
+			);
+			path = EnumPracticeUITests;
+			sourceTree = "<group>";
+		};
+		396874C91C03345500EA51DE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				396874CA1C03345500EA51DE /* Controllers */,
+				396874CB1C03345500EA51DE /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		396874CA1C03345500EA51DE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				396874CC1C03346E00EA51DE /* PracticeController.h */,
+				396874CD1C03346E00EA51DE /* PracticeController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		396874CB1C03345500EA51DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				396874CF1C03347B00EA51DE /* PracticeView.h */,
+				396874D01C03347B00EA51DE /* PracticeView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		396874921C03342E00EA51DE /* EnumPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396874C01C03342E00EA51DE /* Build configuration list for PBXNativeTarget "EnumPractice" */;
+			buildPhases = (
+				3968748F1C03342E00EA51DE /* Sources */,
+				396874901C03342E00EA51DE /* Frameworks */,
+				396874911C03342E00EA51DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnumPractice;
+			productName = EnumPractice;
+			productReference = 396874931C03342E00EA51DE /* EnumPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		396874AB1C03342E00EA51DE /* EnumPracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396874C31C03342E00EA51DE /* Build configuration list for PBXNativeTarget "EnumPracticeTests" */;
+			buildPhases = (
+				396874A81C03342E00EA51DE /* Sources */,
+				396874A91C03342E00EA51DE /* Frameworks */,
+				396874AA1C03342E00EA51DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				396874AE1C03342E00EA51DE /* PBXTargetDependency */,
+			);
+			name = EnumPracticeTests;
+			productName = EnumPracticeTests;
+			productReference = 396874AC1C03342E00EA51DE /* EnumPracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		396874B61C03342E00EA51DE /* EnumPracticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396874C61C03342E00EA51DE /* Build configuration list for PBXNativeTarget "EnumPracticeUITests" */;
+			buildPhases = (
+				396874B31C03342E00EA51DE /* Sources */,
+				396874B41C03342E00EA51DE /* Frameworks */,
+				396874B51C03342E00EA51DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				396874B91C03342E00EA51DE /* PBXTargetDependency */,
+			);
+			name = EnumPracticeUITests;
+			productName = EnumPracticeUITests;
+			productReference = 396874B71C03342E00EA51DE /* EnumPracticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3968748B1C03342E00EA51DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "胡珀菖";
+				TargetAttributes = {
+					396874921C03342E00EA51DE = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					396874AB1C03342E00EA51DE = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 396874921C03342E00EA51DE;
+					};
+					396874B61C03342E00EA51DE = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 396874921C03342E00EA51DE;
+					};
+				};
+			};
+			buildConfigurationList = 3968748E1C03342E00EA51DE /* Build configuration list for PBXProject "EnumPractice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3968748A1C03342E00EA51DE;
+			productRefGroup = 396874941C03342E00EA51DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				396874921C03342E00EA51DE /* EnumPractice */,
+				396874AB1C03342E00EA51DE /* EnumPracticeTests */,
+				396874B61C03342E00EA51DE /* EnumPracticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		396874911C03342E00EA51DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396874A61C03342E00EA51DE /* LaunchScreen.storyboard in Resources */,
+				396874A31C03342E00EA51DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396874AA1C03342E00EA51DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396874B51C03342E00EA51DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3968748F1C03342E00EA51DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3968749B1C03342E00EA51DE /* AppDelegate.m in Sources */,
+				396874CE1C03346E00EA51DE /* PracticeController.m in Sources */,
+				396874981C03342E00EA51DE /* main.m in Sources */,
+				396874D11C03347B00EA51DE /* PracticeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396874A81C03342E00EA51DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396874B11C03342E00EA51DE /* EnumPracticeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396874B31C03342E00EA51DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396874BC1C03342E00EA51DE /* EnumPracticeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		396874AE1C03342E00EA51DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 396874921C03342E00EA51DE /* EnumPractice */;
+			targetProxy = 396874AD1C03342E00EA51DE /* PBXContainerItemProxy */;
+		};
+		396874B91C03342E00EA51DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 396874921C03342E00EA51DE /* EnumPractice */;
+			targetProxy = 396874B81C03342E00EA51DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		396874A41C03342E00EA51DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				396874A51C03342E00EA51DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		396874BE1C03342E00EA51DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		396874BF1C03342E00EA51DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		396874C11C03342E00EA51DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EnumPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Francis.EnumPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		396874C21C03342E00EA51DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EnumPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Francis.EnumPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		396874C41C03342E00EA51DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EnumPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Francis.EnumPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnumPractice.app/EnumPractice";
+			};
+			name = Debug;
+		};
+		396874C51C03342E00EA51DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EnumPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Francis.EnumPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnumPractice.app/EnumPractice";
+			};
+			name = Release;
+		};
+		396874C71C03342E00EA51DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EnumPracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Francis.EnumPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EnumPractice;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		396874C81C03342E00EA51DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EnumPracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Francis.EnumPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EnumPractice;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3968748E1C03342E00EA51DE /* Build configuration list for PBXProject "EnumPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396874BE1C03342E00EA51DE /* Debug */,
+				396874BF1C03342E00EA51DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		396874C01C03342E00EA51DE /* Build configuration list for PBXNativeTarget "EnumPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396874C11C03342E00EA51DE /* Debug */,
+				396874C21C03342E00EA51DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		396874C31C03342E00EA51DE /* Build configuration list for PBXNativeTarget "EnumPracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396874C41C03342E00EA51DE /* Debug */,
+				396874C51C03342E00EA51DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		396874C61C03342E00EA51DE /* Build configuration list for PBXNativeTarget "EnumPracticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396874C71C03342E00EA51DE /* Debug */,
+				396874C81C03342E00EA51DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3968748B1C03342E00EA51DE /* Project object */;
+}
