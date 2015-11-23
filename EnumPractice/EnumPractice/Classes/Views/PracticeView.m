@@ -32,11 +32,11 @@
         }
         
         if (practiceType & PracticeFillDotType) {
-            int dotMaxY = CGRectGetHeight(self.frame) / 5;
-            int dotMaxX = CGRectGetWidth(self.frame) / 5;
+            int dotMaxY = CGRectGetHeight(self.frame) / 20;
+            int dotMaxX = CGRectGetWidth(self.frame) / 20;
             for (int i = 0; i < dotMaxY; i++) {
                 for (int j = 0; j < dotMaxX; j++) {
-                    UIView *tempDotView = [[UIView alloc] initWithFrame:CGRectMake(j * 5 + 2.5, i * 5, 5, 5)];
+                    UIView *tempDotView = [[UIView alloc] initWithFrame:CGRectMake(j * 20 + 10, i * 20 + 10, 5, 5)];
                     tempDotView.layer.cornerRadius = 2.5;
                     tempDotView.backgroundColor = [UIColor grayColor];
                     [self addSubview:tempDotView];
